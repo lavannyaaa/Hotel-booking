@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;  /* exported font*/
+}
+
+.hero-section {
+    background-image: url(img.jpg);
+    background-size: cover; /* to make the image completely cover the area*/
+    background-blend-mode: overlay; /* to add a colour shade (overlay) on background*/
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    text-align: center;
+
+}
+
+.hero-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.hero-text > h1 {
+    font-size: 40px;
+}
+
+.book-btn,
+.know-btn {
+    background-color: aqua;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.about-sectn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abt-us, 
+.Form-heading,
+.room-heading {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.know-btn-container {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.about-us {
+    width: 50%;
+}
+
+.room-type-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.room-images img {
+    width: 100%;
+}
+
+.room-list h4 {
+    font-size: 20px;
+}
+
+.help-btn {
+    background-color: sienna;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.help-btn h4 {
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 30px 0px;
+    border: 2px solid rgb(111, 111, 111);
+    border-radius: 15px;
+    width: max-content;
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+    margin: 5px;
+}
+
+input, select {
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .hero-text > h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text > p {
+        font-size: 1rem;
+    }
+    
+    .hero-text {
+        width: fit-content;
+    }
+
+    .about-sectn {
+        display: block;
+        padding: 0rem 0.5rem;
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .amenities h3 {
+        text-align: center;
+    }
+
+    .abt-us, 
+    .Form-heading,
+    .room-heading {
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+    .room-type-container {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 980px) {
+    .hero-text > h1 {
+        font-size: 25px;
+    }
+
+    .hero-text > p {
+        font-size: 15px;
+    }
+
+    .room-images img {
+        width: 400px;
+        height: 200px;
+    }
+}
