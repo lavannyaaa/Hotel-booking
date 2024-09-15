@@ -32,7 +32,8 @@ git clone https://github.com/lavannyaaa/Hotel-booking.git
   **SCREENSHOT**
   ![image](https://github.com/user-attachments/assets/5ed408f4-c474-4539-9c33-17352d172e7a)
   ![image](https://github.com/user-attachments/assets/550d494b-8d07-44a5-a9b1-b6fe5e3f1bbd)
-  ![image](https://github.com/user-attachments/assets/d28a812a-2261-4ac4-a40b-049163fff2e6)
+  ![image](https://github.com/user-attachments/assets/ec5bd62e-08c7-40e0-9dd2-434ff9fbf09d)
+
 
 **LIVE DEMO**
 
